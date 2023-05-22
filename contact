@@ -1,0 +1,8 @@
+// Get the element with ID "my-link"
+let myLink = document.getElementById("my-link");
+
+// Add an event listener to the link
+myLink.addEventListener("click", function(event) {
+  event.preventDefault();  // Prevent the default link behavior
+  location.href = "https://www.example.com";  // Navigate to the specified URL
+});
